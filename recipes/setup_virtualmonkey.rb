@@ -162,6 +162,7 @@ execute "populate cloud variables" do
   # Bundler loads in /usr/local/bin in Ubuntu.  Chef looks at system path, so we need to add this explicitly. 
   environment("PATH" => "#{ENV["PATH"]}:/usr/local/bin")
   command "bundle exec monkey populate_all_cloud_vars" +
+    " --security-group-name default" +
     " --force" +
     " --overwrite" +
     " --yes"
