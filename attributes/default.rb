@@ -69,7 +69,7 @@ default[:virtualmonkey][:fog][:azure_access_key_id] = ""
 # Azure Secret Access Key
 default[:virtualmonkey][:fog][:azure_secret_access_key] = ""
 # S3 Bucket Name for Reports Storage
-default[:virtualmonkey][:fog][:s3_bucket] = ""
+default[:virtualmonkey][:fog][:s3_bucket] = "rightlink-virtualmonkey"
 # Openstack Folsom Access Key ID
 default[:virtualmonkey][:fog][:openstack_access_key_id] = ""
 # Openstack Folsom Secret Access Key
