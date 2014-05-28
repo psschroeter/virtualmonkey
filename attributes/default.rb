@@ -202,14 +202,15 @@ default[:virtualmonkey][:fog][:azure_endpoint] = "https://" +
   "#{node[:virtualmonkey][:fog][:azure_access_key_id]}.blob.core.windows.net"
 
 # AWS Default SSH Keys
-default['virtualmonkey']['aws_default_ssh_key_ids']['east'] = '20578'
-default['virtualmonkey']['aws_default_ssh_key_ids']['eu'] = '324202'
-default['virtualmonkey']['aws_default_ssh_key_ids']['us_west'] = '173773'
-default['virtualmonkey']['aws_default_ssh_key_ids']['ap_singapore'] = '324203'
-default['virtualmonkey']['aws_default_ssh_key_ids']['ap_tokyo'] = '324190'
-default['virtualmonkey']['aws_default_ssh_key_ids']['us_oregon'] = '255379001'
-default['virtualmonkey']['aws_default_ssh_key_ids']['sa_sao_paolo'] = '216453001'
-default['virtualmonkey']['aws_default_ssh_key_ids']['ap_sydney'] = '323389001'
+#
+default['virtualmonkey']['aws_default_ssh_key_ids']['east'] = '200012137003'
+default['virtualmonkey']['aws_default_ssh_key_ids']['eu'] = '200012138003'
+default['virtualmonkey']['aws_default_ssh_key_ids']['us_west'] = '200012139003'
+default['virtualmonkey']['aws_default_ssh_key_ids']['ap_singapore'] = '200012140003'
+default['virtualmonkey']['aws_default_ssh_key_ids']['ap_tokyo'] = '200012141003'
+default['virtualmonkey']['aws_default_ssh_key_ids']['us_oregon'] = '200012142003'
+default['virtualmonkey']['aws_default_ssh_key_ids']['sa_sao_paolo'] = '200012143003'
+default['virtualmonkey']['aws_default_ssh_key_ids']['ap_sydney'] = '200012144003'
 
 # ruby version
 default['virtualmonkey']['ruby']['version'] = '1.9'
